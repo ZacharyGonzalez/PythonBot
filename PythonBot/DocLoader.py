@@ -11,7 +11,7 @@ import cohere
 import os
 CTOKEN = os.getenv('COHERE_TOKEN')
 
-co = cohere.Client('dPWRqD2QNxdHqbeOsG3Ib4KPda420RnpemnCcMql')
+co = cohere.Client(CTOKEN)
 # Document class
 class Documents:
 
