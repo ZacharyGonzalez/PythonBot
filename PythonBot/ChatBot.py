@@ -5,7 +5,7 @@ from DocLoader import Documents
 import os
 CTOKEN = os.getenv('COHERE_TOKEN')
 
-co = cohere.Client('dPWRqD2QNxdHqbeOsG3Ib4KPda420RnpemnCcMql')
+co = cohere.Client(CTOKEN)
 
 # example local sources
 sources = [
